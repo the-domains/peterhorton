@@ -1,28 +1,40 @@
-name: peterhorton
-favicon: null
-layout_spectrum: 0.40187761443667114
-typography_spectrum: 0.9200079862494022
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.4018776144366711
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5659574
+  brandStrength: 0.677545512560755
+  lightness: 0.3319149
   brandColors:
     - '#17BEBB'
     - '#2E282A'
     - '#CD5334'
     - '#EDB88B'
     - '#FAD8D6'
-  brandStrength: 0.677545512560755
-  lightness: 0.22737690131179988
-  saturation: 0.6894250828772783
-  rhythmicContrast: 0.352168952813372
-purpose: []
+  rhythmicContrast: 0.7319149
+typography_spectrum: 0.6
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: peterhorton
